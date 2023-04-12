@@ -6,12 +6,12 @@ const Atas = () => {
       <div className="mt-[13rem] text-center justify-center items-center ">
         <p
           id="hey"
-          className="text-[5rem] transition ease-in-out delay-150 text-[#DF7857] text-center  hover:-translate-y-1 hover:scale-110 hover:duration-300"
+          className="text-[3rem] md:text-[5rem] transition ease-in-out delay-150 text-[#DF7857] text-center  hover:-translate-y-1 hover:scale-110 hover:duration-300"
         >
           Hey
         </p>
       </div>
-      <p className="text-[5rem] text-[#A84448] text-center blur-[0.5px] animate-masuk">
+      <p className="text-[2rem] text-[#A84448] text-center blur-[0.5px] animate-masuk md:text-[5rem]">
         Im Giselle
       </p>
     </div>
