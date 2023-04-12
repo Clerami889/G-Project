@@ -22,7 +22,7 @@ const Pricing = () => {
                   href="https://www.danielspatzek.com/home/"
                   className="inline-block px-10 py-3 my-6 text-center border border-indigo-600 rounded-lg hover:bg-indigo-800 hover:border-indigo-800"
                 >
-                  Rent Now
+                  Buy Now
                 </a>
               </div>
             </div>

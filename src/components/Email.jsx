@@ -1,8 +1,9 @@
 import React from "react";
 import pic from "./Gambar/a15.jpg";
 const Email = () => {
+  const troll = () => {};
   return (
-    <div>
+    <form action="https://youtu.be/PBUG4DZ_a9A">
       <div className="flex items-center justify-center h-screen bg-zinc-700">
         <div className="bg-zinc-800 p-2 mx-2 rounded-2xl">
           <div className="flex flex-col md:flex-row rounded-l-xl">
@@ -26,7 +27,11 @@ const Email = () => {
                   className="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
                 />
 
-                <button className="px-5 py-3 text-xs rounded-md text-zinc-900 bg-orange-500 hover:bg-orange-700 hover:text-white">
+                <button
+                  type="submit"
+                  value="submit"
+                  className="px-5 py-3 text-xs rounded-md text-zinc-900 bg-orange-500 hover:bg-orange-700 hover:text-white"
+                >
                   Sampaikan
                 </button>
               </div>
@@ -34,7 +39,7 @@ const Email = () => {
           </div>
         </div>
       </div>
-    </div>
+    </form>
   );
 };
 
