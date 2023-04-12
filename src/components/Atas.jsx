@@ -2,8 +2,8 @@ import React from "react";
 
 const Atas = () => {
   return (
-    <div className="bg-[url('../public/gei.jpeg')] bg-auto bg-fixed bg-no-repeat h-[100vmin] mb-0 flex flex-col m-[0.03rem] scroll-smooth">
-      <div className="mt-[13rem]  ">
+    <div className="bg-[url('../public/gei.jpeg')] bg-fixed bg-no-repeat md:h-[150vmin] md:justify-start flex flex-col m-3 rounded-xl scroll-smooth  h-[90vmax] text-center">
+      <div className="mt-[13rem] text-center justify-center items-center ">
         <p
           id="hey"
           className="text-[5rem] transition ease-in-out delay-150 text-[#DF7857] text-center  hover:-translate-y-1 hover:scale-110 hover:duration-300"

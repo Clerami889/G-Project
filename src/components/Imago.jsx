@@ -28,7 +28,7 @@ const Imago = () => {
   const images = [a, b, c, d, e, f, g, h, i, j, k, l, m, n];
 
   return (
-    <div className="mx-[10%] my-[10%] bg-indigo-500/40">
+    <div className="mx-12 my-12 bg-indigo-500/40">
       <motion.div ref={au} className="carousel  cursor-grab overflow-hidden">
         <motion.div
           drag="x"
@@ -38,7 +38,7 @@ const Imago = () => {
           {images.map((image) => {
             return (
               <motion.div
-                className="min-h-[20rem] min-w-[25rem] p-[40px] duration-300"
+                className="min-h-[60vmax] min-w-[40vmax] p-[40px] duration-300"
                 key={image}
               >
                 <img

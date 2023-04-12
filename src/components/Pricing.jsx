@@ -1,5 +1,5 @@
 import React from "react";
-
+import { VscCheck } from "react-icons/vsc";
 const Pricing = () => {
   return (
     <div>
@@ -14,11 +14,29 @@ const Pricing = () => {
               <div className="h3 mt-2 text-center">Rp.500.000/Day</div>
               <div className="flex justify-center">
                 <a
-                  href="https://www.youtube.com/watch?v=zi2dYEIwSkA&list=RDaLdo3J1yseE&index=6"
+                  href="https://www.danielspatzek.com/home/"
                   className="inline-block px-10 py-3 my-6 text-center border border-indigo-600 rounded-lg hover:bg-indigo-800 hover:border-indigo-800"
                 >
                   Rent Now
                 </a>
+              </div>
+            </div>
+
+            <div className="border-t border-slate-700 "></div>
+            <div className="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+              <div className="flex flex-col space-y-2">
+                <div className="flex justify-center items-center">
+                  <VscCheck />
+                  <span className="text-sm ml-1 ">25+ Service</span>
+                </div>
+                <div className="flex justify-center items-center">
+                  <VscCheck />
+                  <span className="text-sm ml-1 ">Trusted</span>
+                </div>
+                <div className="flex justify-center items-center">
+                  <VscCheck />
+                  <span className="text-sm ml-1 ">Trust Me Bro</span>
+                </div>
               </div>
             </div>
           </div>
