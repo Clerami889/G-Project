@@ -1,7 +1,7 @@
 import React from "react";
 import { VscCheck } from "react-icons/vsc";
 import { FaFrog } from "react-icons/fa";
-const Pricing = () => {
+const Pricing = (props) => {
   return (
     <div>
       <div className="Container flex items-center justify-center min-h-screen bg-slate-800 ">
@@ -20,7 +20,7 @@ const Pricing = () => {
               <div className="flex justify-center">
                 <a
                   draggable="false"
-                  href="https://www.danielspatzek.com/home/"
+                  href="https://trakteer.id/Tohf__.03"
                   className="inline-block px-10 py-3 my-6 text-center border border-indigo-600 rounded-lg hover:bg-indigo-800 hover:border-indigo-800 duration-150 ease-in-out"
                 >
                   Buy Now
