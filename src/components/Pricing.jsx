@@ -1,5 +1,6 @@
 import React from "react";
 import { VscCheck } from "react-icons/vsc";
+import { FaFrog } from "react-icons/fa";
 const Pricing = () => {
   return (
     <div>
@@ -7,11 +8,15 @@ const Pricing = () => {
         <div className="InnerContainer flex flex-col my-6 space-y-6 md:space-y-0 md:space-x-6 md:flex-row md:my-0">
           <div className="bg-slate-700 rounded-xl text-white">
             <div className="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
-              <div className="text-center uppercase">Rent</div>
+              <div className="text-center uppercase">Buy OG</div>
+
               <div className="h2 mt-10 font-serif text-5xl text-center">
-                Date
+                <div className="">
+                  <FaFrog className="inline h-12 items-center justify-center" />
+                </div>
+                OG
               </div>
-              <div className="h3 mt-2 text-center">Rp.500.000/Day</div>
+              <div className="h3 mt-2 text-center">Rp.5000/OG</div>
               <div className="flex justify-center">
                 <a
                   href="https://www.danielspatzek.com/home/"
@@ -31,7 +36,7 @@ const Pricing = () => {
                 </div>
                 <div className="flex justify-center items-center">
                   <VscCheck />
-                  <span className="text-sm ml-1 ">Trusted</span>
+                  <span className="text-sm ml-1 ">Kewl</span>
                 </div>
                 <div className="flex justify-center items-center">
                   <VscCheck />
