@@ -38,7 +38,7 @@ const Imago = () => {
           {images.map((image) => {
             return (
               <motion.div
-                className="min-h-[30vmax] min-w-[40vmax] p-[40px] duration-300 md:min-h-[20vmax] md:min-w-[30vmax]"
+                className="min-h-[30vmax] min-w-[40vmax] p-[40px] duration-300 md:min-h-[20dvmax] md:min-w-[30dvmax]"
                 key={image}
               >
                 <img
