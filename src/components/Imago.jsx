@@ -28,17 +28,17 @@ const Imago = () => {
   const images = [a, b, c, d, e, f, g, h, i, j, k, l, m, n];
 
   return (
-    <div className="mx-12 my-12 bg-purple-400/50">
+    <div className="mx-12 my-12 bg-purple-400/50 ">
       <motion.div ref={au} className="carousel cursor-grab overflow-hidden ">
         <motion.div
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
-          className="inner-carousel flex  w-[100%] h-[50vmax]"
+          className="inner-carousel flex "
         >
           {images.map((image) => {
             return (
               <motion.div
-                className="min-h-[25vmax] min-w-[30vmax] p-[40px] duration-300"
+                className="min-h-[30vmax] min-w-[40vmax] p-[40px] duration-300 md:min-h-[20vmax] md:min-w-[30vmax]"
                 key={image}
               >
                 <img
