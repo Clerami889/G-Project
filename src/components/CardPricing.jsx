@@ -16,13 +16,23 @@ const CardPricing = () => {
 
     {
       judul: "Sewa Milk",
-      judul2: "SUSU",
+      judul2: "Susu",
       harga: "200 MYR/Day",
       tombol: "Rent Now",
       pro1: "Full Service",
       pro2: "Feet Pics Anytime",
       pro3: "Indian",
       link: "https://www.instagram.com/aidanhongwu/",
+    },
+    {
+      judul: "Sehat",
+      judul2: "Brokoli",
+      harga: "Cukup Mahal",
+      tombol: "Order Now",
+      pro1: "Health +100",
+      pro2: "Goblin Colour",
+      pro3: "Santai Dulu Gak Sih",
+      link: "https://mupi.carrd.co/",
     },
   ];
   return (
@@ -47,6 +57,17 @@ const CardPricing = () => {
           pro2={Data[1].pro2}
           pro3={Data[1].pro3}
           link={Data[1].link}
+        />
+
+        <Pricing
+          judul={Data[2].judul}
+          judul2={Data[2].judul2}
+          harga={Data[2].harga}
+          tombol={Data[2].tombol}
+          pro1={Data[2].pro1}
+          pro2={Data[2].pro2}
+          pro3={Data[2].pro3}
+          link={Data[2].link}
         />
       </div>
     </div>
