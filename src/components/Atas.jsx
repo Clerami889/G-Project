@@ -1,6 +1,7 @@
 import React from "react";
 
 const Atas = () => {
+  const ayam = () => {};
   return (
     <div className="bg-[url('../public/gei.jpeg')] bg-fixed bg-no-repeat md:h-[150vmin] md:justify-start flex flex-col m-3 rounded-xl scroll-smooth  h-[90vmax] text-center">
       <div className="mt-[13rem] text-center justify-center items-center ">

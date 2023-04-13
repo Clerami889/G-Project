@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import { ayam } from "three";
 
 import React from "react";
 import a from "./Gambar/a1.jpeg";
