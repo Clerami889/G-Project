@@ -6,6 +6,7 @@ import Email from "./components/Email";
 
 import CardPricing from "./components/CardPricing";
 import Tombol from "./components/Tombol";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
       <CardPricing />
       <Tombol />
+      <Footer />
     </div>
   );
 }

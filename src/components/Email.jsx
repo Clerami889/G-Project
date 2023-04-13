@@ -1,7 +1,6 @@
 import React from "react";
 import pic from "./Gambar/a15.jpg";
 const Email = () => {
-  const troll = () => {};
   return (
     <form id="gay" action="https://youtu.be/PBUG4DZ_a9A">
       <div className="flex items-center justify-center h-screen md:w-[100dvw] md:h-[100dvh] bg-zinc-700">
