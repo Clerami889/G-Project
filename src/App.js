@@ -5,6 +5,7 @@ import Imago from "./components/Imago";
 import Email from "./components/Email";
 
 import CardPricing from "./components/CardPricing";
+import Tombol from "./components/Tombol";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Email />
       <Imago />
 
-      <CardPricing></CardPricing>
+      <CardPricing />
+      <Tombol />
     </div>
   );
 }

@@ -4,7 +4,7 @@ const Email = () => {
   const troll = () => {};
   return (
     <form action="https://youtu.be/PBUG4DZ_a9A">
-      <div className="flex items-center justify-center h-screen bg-zinc-700">
+      <div className="flex items-center justify-center h-screen md:w-[100dvw] md:h-[100dvh] bg-zinc-700">
         <div className="bg-zinc-800 p-2 mx-2 rounded-2xl">
           <div className="flex flex-col md:flex-row rounded-l-xl">
             <img
