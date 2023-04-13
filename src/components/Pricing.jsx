@@ -24,7 +24,7 @@ const Pricing = (props) => {
               <div className="flex justify-center">
                 <a
                   draggable="false"
-                  href="https://trakteer.id/Tohf__.03"
+                  href={props.link}
                   className="inline-block px-10 py-3 my-6 text-center border border-indigo-600 rounded-lg hover:bg-indigo-800 hover:border-indigo-800 duration-150 ease-in-out"
                 >
                   {props.tombol}

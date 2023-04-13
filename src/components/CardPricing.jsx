@@ -11,6 +11,7 @@ const CardPricing = () => {
       pro1: "25+ Service",
       pro2: "Kewl",
       pro3: "Trust Me Bro",
+      link: "https://trakteer.id/Tohf__.03",
     },
 
     {
@@ -21,6 +22,7 @@ const CardPricing = () => {
       pro1: "Full Service",
       pro2: "Feet Pics Anytime",
       pro3: "Indian",
+      link: "https://www.instagram.com/aidanhongwu/",
     },
   ];
   return (
@@ -34,6 +36,7 @@ const CardPricing = () => {
           pro1={Data[0].pro1}
           pro2={Data[0].pro2}
           pro3={Data[0].pro3}
+          link={Data[0].link}
         />
         <Pricing
           judul={Data[1].judul}
