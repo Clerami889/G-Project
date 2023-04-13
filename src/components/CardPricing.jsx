@@ -46,6 +46,7 @@ const CardPricing = () => {
           pro1={Data[1].pro1}
           pro2={Data[1].pro2}
           pro3={Data[1].pro3}
+          link={Data[0].link}
         />
       </div>
     </div>
