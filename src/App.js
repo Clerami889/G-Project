@@ -3,7 +3,9 @@ import KotakAtas from "./components/KotakAtas";
 
 import Imago from "./components/Imago";
 import Email from "./components/Email";
-import Pricing from "./components/Pricing";
+
+import CardPricing from "./components/CardPricing";
+
 function App() {
   return (
     <div className="">
@@ -12,7 +14,8 @@ function App() {
       <KotakAtas />
       <Email />
       <Imago />
-      <Pricing />
+
+      <CardPricing></CardPricing>
     </div>
   );
 }
