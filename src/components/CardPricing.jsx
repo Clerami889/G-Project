@@ -37,7 +37,7 @@ const CardPricing = () => {
   ];
   return (
     <div>
-      <div className='className="Container flex md:flex-row md:gap-24 items-center justify-center min-h-screen bg-slate-800 '>
+      <div className='className="Container flex flex-col space-y-12 md:flex-row md:gap-24 items-center justify-center min-h-screen bg-slate-800 '>
         <Pricing
           judul={Data[0].judul}
           judul2={Data[0].judul2}
