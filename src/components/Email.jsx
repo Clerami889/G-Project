@@ -1,5 +1,6 @@
 import React from "react";
 import pic from "./Gambar/a15.jpg";
+
 const Email = () => {
   return (
     <form id="gay" action="https://youtu.be/PBUG4DZ_a9A">

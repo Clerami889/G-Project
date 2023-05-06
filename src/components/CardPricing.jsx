@@ -1,6 +1,6 @@
 import React from "react";
 import Pricing from "./Pricing";
-
+import suara from "./Suara/S1.ogg";
 const CardPricing = () => {
   const Data = [
     {
